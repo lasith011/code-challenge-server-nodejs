@@ -7,7 +7,7 @@
     "dev": "nodemon src/index.js",
     "lint": "eslint 'src/**/*.js?(x)' --fix --ext .js",
     "test": "jest --watchAll --testPathPattern=./test",
-    "test-coverage": "jest --watchAll --testPathPattern=./test --coverage"
+    "test-coverage": "jest --testPathPattern=./test --coverage --forceExit"
   },
   "keywords": [],
   "author": "",

@@ -1,7 +1,7 @@
 const request = require("supertest");
 const app = require("../src/index");
 
-jest.setTimeout(30000);
+jest.setTimeout(10000);
 
 describe("Temperature API", () => {
 
