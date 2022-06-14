@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
+    "lint": "eslint 'src/**/*.js?(x)' --fix --ext .js",
     "test": "jest --watchAll --testPathPattern=./test",
     "test-coverage": "jest --watchAll --testPathPattern=./test --coverage"
   },
@@ -12,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-google": "^0.14.0",
     "jest": "^28.1.1",
     "nodemon": "^2.0.16",
     "supertest": "^6.2.3"
